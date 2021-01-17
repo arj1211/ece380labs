@@ -46,17 +46,17 @@ plot([u_t(:), y_t(:)], [u_v(:), y_v(:)], '-');  % Plot input and output.
 hold on
 plot(px,py,'go');                               % Green circle markers
 
-hold on
+% hold on
 % yline(y_val);
-plot(1+tau,y_val,'mx');                         % 63% point (tau point)
+% plot(1+tau,y_val,'mx');                         % 63% point (tau point)
 
-hold on
-yline(down2p);                                  % 2% lower
-hold on
-yline(up2p);                                    % 2% higher
+% hold on
+% yline(down2p);                                  % 2% lower
+% hold on
+% yline(up2p);                                    % 2% higher
 
-hold on
-plot(1+settling_time, down2p, 'c+');            % settling point
+% hold on
+% plot(1+settling_time, down2p, 'c+');            % settling point
 
 legend('Input Signal', 'Output Signal', 'Peaks');% Legend, in order of signals above.
 title('Put a good title here')                  % Title
