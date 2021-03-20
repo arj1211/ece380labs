@@ -11,8 +11,8 @@ datadict.close();
 
 %% Your Choice of Kp and Kd. (MAKE YOUR EDITS IN THIS SECTION)
 
-Kp = 1; % Your Kp
-Kd = 0; % Your Kd
+Kp = 8; % Your Kp
+Kd = 3; % Your Kd
 
 %% Root Locus
 figure(3);

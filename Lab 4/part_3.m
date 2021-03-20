@@ -8,9 +8,9 @@ N = section.getEntry('filterCoeff').getValue();
 datadict.close();
 
 %% Set your gains. (MAKE YOUR EDITS IN THIS SECTION)
-Kp = 1;
-Ki = 0;
-Kd = 0;
+Kp = 8;
+Ki = 20;
+Kd = 3;
 
 %% Root Locus 1 (Changing Kp)
 figure(4);
