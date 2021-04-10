@@ -8,9 +8,9 @@ N = section.getEntry('filterCoeff').getValue();
 datadict.close();
 
 %%
-Kp = 1;
-Ki = 0;
-Kd = 0;
+Kp = 8;
+Ki = 20;
+Kd = 12;
 
 %%
 G = ((N*Kd + Kp)*s^2 + (N*Kp + Ki)*s + N*Ki) / (s^4 + N*s^3 + (N*Kd+Kp)*s^2 + (N*Kp+Ki)*s + N*Ki);

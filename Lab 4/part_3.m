@@ -10,7 +10,8 @@ datadict.close();
 %% Set your gains. (MAKE YOUR EDITS IN THIS SECTION)
 Kp = 8;
 Ki = 20;
-Kd = 3;
+% Kd = 3;
+Kd = 12; % inc. Kd decreases overshoot
 
 %% Root Locus 1 (Changing Kp)
 figure(4);
