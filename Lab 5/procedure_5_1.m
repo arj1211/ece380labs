@@ -6,4 +6,6 @@ alpha = 0;
 T = 0;
 
 %% (1) Pick an appropriate gain K
-K = 0;
+K = 49;
+
+% 1/(1+K) <= 0.02 ==> 1/0.02 - 1 <= K
