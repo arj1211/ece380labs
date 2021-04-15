@@ -2,5 +2,5 @@
 procedure_5_1;
 
 %% Parameters
-alpha = 0;
-T = 0;
+alpha = 4.84;
+T = 0.0658;
